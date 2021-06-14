@@ -6,9 +6,8 @@
   <li>Debit : Expense </li>
   <li>Total Balance : Remaining Balance</li>
  </ul>
- 
- ####Components
- 
+
+### Componets  
 <ul>
   <li>AddTransaction : Base on form which will allow us to add new transaction wether it's Income or Expense </li>
   <li>Balance : It shows Total Income, expense and remaining Balance </li>
