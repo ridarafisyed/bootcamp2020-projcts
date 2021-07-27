@@ -1,27 +1,30 @@
+:root {
+  --clr-green: #48a59d;
+  --clr-purple: #bd2f85;
+}
+
 .container {
   margin-top: 20px;
   max-width: 500px;
-
-  padding: 2rem 0.75rem 2rem 0.75rem;
+  padding: 2rem 0.75rem 0.5rem 0.75rem;
 }
 .jumbotron {
   background: transparent !important;
-
   background-color: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(5px);
 }
 .card {
   border: none;
-  margin: 10px;
+  margin: 0rem 1rem 0rem 1rem;
 }
 .green-success {
-  background-color: rgba(22, 138, 22, 0.8);
+  background-color: var(--clr-green);
   backdrop-filter: blur(5px);
   box-shadow: rgba(0, 0, 0, 0.2) 0 0 1rem 0;
   border-radius: 3px;
 }
 .red-danger {
-  background-color: rgba(201, 2, 2, 0.8);
+  background-color: var(--clr-purple);
   backdrop-filter: blur(5px);
   box-shadow: rgba(0, 0, 0, 0.2) 0 0 1rem 0;
   border-radius: 3px;
@@ -47,5 +50,8 @@ li {
   border-left: solid 10px;
 }
 .border-green {
-  border-color: green;
+  border-color: var(--clr-green);
+}
+.border-red {
+  border-color: var(--clr-purple);
 }
