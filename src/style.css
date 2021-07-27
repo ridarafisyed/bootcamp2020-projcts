@@ -38,3 +38,14 @@ body {
   height: 100%;
   color: whitesmoke;
 }
+li {
+  color: #333;
+}
+.list-group-item {
+  color: #333;
+  font-size: 1.5em;
+  border-left: solid 10px;
+}
+.border-green {
+  border-color: green;
+}
